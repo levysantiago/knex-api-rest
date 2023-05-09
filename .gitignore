@@ -1,6 +1,17 @@
+# dependencies
 node_modules/
-db/app.db
-db/test.db
+
+#database
+db/*.db
+
+# environment
 .env
-package-lock.json
 .env.test
+
+# locks
+package-lock.json
+yarn.lock
+
+# build
+dist
+build
